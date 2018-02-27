@@ -18,7 +18,7 @@ public class MainWindow {
         display=new Display();
         shell =new Shell(display, SWT.CENTER | SWT.SHELL_TRIM);
         shell.setText("PPVIS_LAB1");
-        shell.setSize(600,600);
+        shell.setSize(800,600);
         centeringWindow();
     }
 
@@ -294,8 +294,10 @@ class FifthTask{
     }
 
     public void showWindowFirthTask () {
-        MessageBox warningNotExist=new MessageBox(shell,SWT.COLOR_RED);
-        warningNotExist.setMessage("Нет такого пункта");
+        MessageBox warningNotExist1=new MessageBox(shell,SWT.COLOR_RED);
+        warningNotExist1.setMessage("Нет элементов выделенных в 1 столбце");
+        MessageBox warningNotExist2=new MessageBox(shell,SWT.COLOR_RED);
+        warningNotExist2.setMessage("Нет элементов выделенных в 2 столбце");
         MessageBox warningEmpty=new MessageBox(shell,SWT.COLOR_RED);
         warningEmpty.setMessage("Введите текст");
         Text text=new Text(group,SWT.BORDER);
@@ -338,7 +340,6 @@ class FifthTask{
                 if(!text.getText().isEmpty()){
                     TableItem tableItem=new TableItem(table,SWT.NONE);
                     tableItem.setText(0,text.getText());
-                    tableItem.setText(1,"rfrf");
                     text.setText("");
                 } else warningEmpty.open();
             }
@@ -347,43 +348,26 @@ class FifthTask{
             @Override
             public void widgetSelected(SelectionEvent e) {
                 if (table.getSelection().length > 0) {
-                    for (int i = 0; i < table.getSelection().length; i++) {
-                        if (!table.getSelection()[i].getText(0).isEmpty()) {
-                            table.getSelection()[i].setText(1, table.getSelection()[i].getText(0));
-                            table.getSelection()[i].setText(0,"");
+                    if (!table.getSelection()[0].getText(0).isEmpty()) {
+                        table.getSelection()[0].setText(1, table.getSelection()[0].getText(0));
+                        table.getSelection()[0].setText(0, "");
 
-                        }
-                    }
-                    table.deselectAll();
-                } else warningNotExist.open();
+                    } else warningNotExist1.open();
+                        table.deselectAll();
+                } else warningNotExist1.open();
 
             }
         });
         buttonSwapColumnBack.addSelectionListener(new SelectionAdapter() {
             @Override
             public void widgetSelected(SelectionEvent e) {
-                super.widgetSelected(e);
-            }
-        });
-        table.addListener(SWT.MouseUp, new Listener()
-        {
-            @Override
-            public void handleEvent(Event event)
-            {
-                Point pt = new Point(event.x, event.y);
-                TableItem item = table.getItem(pt);
-                if (item != null)
-                {
-                    /* Iterate over all columns and check if event is contained */
-                    for (int col = 0; col < table.getColumnCount(); col++)
-                    {
-                        Rectangle rect = item.getBounds(col);
-                        if (rect.contains(pt))
-                        {
-                            System.out.println(item.getText(col));
-                        }
-                    }
-                }
+                if (table.getSelection().length > 0) {
+                    if (!table.getSelection()[0].getText(1).isEmpty()) {
+                        table.getSelection()[0].setText(0, table.getSelection()[0].getText(1));
+                        table.getSelection()[0].setText(1, "");
+                    } else warningNotExist2.open();
+                    table.deselectAll();
+                } else warningNotExist2.open();
             }
         });
     }
