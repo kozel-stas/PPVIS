@@ -15,33 +15,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/PPVIS/Main.java">
+      <file leaf-file-name="MainWindow.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/PPVIS/MainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="54">
+              <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+              <folding>
+                <element signature="method#MainWindow#0;class#MainWindow#0" expanded="false" />
+                <element signature="method#centeringWindow#0;class#MainWindow#0" expanded="false" />
+                <element signature="method#showWindow#0;class#MainWindow#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainWindow.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/PPVIS/MainWindow.java">
+      <file leaf-file-name="FirstTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/PPVIS/FirstTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="362" column="99" lean-forward="false" selection-start-line="362" selection-start-column="99" selection-end-line="362" selection-end-column="99" />
+            <state relative-caret-position="752">
+              <caret line="61" column="1" lean-forward="false" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#MainWindow#0;class#MainWindow#0" expanded="false" />
-                <element signature="method#centeringWindow#0;class#MainWindow#0" expanded="false" />
-                <element signature="method#showWindow#0;class#MainWindow#0" expanded="false" />
-                <element signature="class#FourthTask#0" expanded="false" />
-                <element signature="e#13585#14321#0" expanded="true" />
-                <element signature="e#14320#14321#0" expanded="true" />
-                <element signature="e#14370#14650#0" expanded="true" />
-                <element signature="e#14649#14650#0" expanded="true" />
-                <element signature="e#14703#14982#0" expanded="true" />
-                <element signature="e#14981#14982#0" expanded="true" />
+                <element signature="e#1599#2189#0" expanded="true" />
+                <element signature="e#2188#2189#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecondTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/PPVIS/SecondTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="752">
+              <caret line="62" column="1" lean-forward="false" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1568#1859#0" expanded="true" />
+                <element signature="e#1858#1859#0" expanded="true" />
+                <element signature="e#1904#2218#0" expanded="true" />
+                <element signature="e#2217#2218#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThirdTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/PPVIS/ThirdTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1202">
+              <caret line="71" column="1" lean-forward="false" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1979#2632#0" expanded="true" />
+                <element signature="e#2631#2632#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FourthTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/PPVIS/FourthTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1224">
+              <caret line="68" column="1" lean-forward="false" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2026#2607#0" expanded="true" />
+                <element signature="e#2606#2607#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FifthTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/PPVIS/FifthTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="752">
+              <caret line="117" column="1" lean-forward="false" selection-start-line="117" selection-start-column="1" selection-end-line="117" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3518#4254#0" expanded="true" />
+                <element signature="e#4253#4254#0" expanded="true" />
+                <element signature="e#4303#4583#0" expanded="true" />
+                <element signature="e#4582#4583#0" expanded="true" />
+                <element signature="e#4636#4915#0" expanded="true" />
+                <element signature="e#4914#4915#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,6 +122,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/com/PPVIS/FourthTask.java" />
+        <option value="$PROJECT_DIR$/src/com/PPVIS/FifthTask.java" />
+        <option value="$PROJECT_DIR$/src/com/PPVIS/FirstTask.java" />
+        <option value="$PROJECT_DIR$/src/com/PPVIS/SecondTask.java" />
+        <option value="$PROJECT_DIR$/src/com/PPVIS/ThirdTask.java" />
         <option value="$PROJECT_DIR$/src/com/PPVIS/Main.java" />
         <option value="$PROJECT_DIR$/src/com/PPVIS/MainWindow.java" />
       </list>
@@ -96,9 +159,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,7 +185,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -149,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MainWindow">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.PPVIS.Main" />
@@ -166,6 +229,25 @@
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
     </configuration>
+    <configuration name="MainWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.PPVIS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.PPVIS.MainWindow" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Lab1PPVIS" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -181,9 +263,14 @@
       <envs />
       <method />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MainWindow" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.MainWindow" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -213,11 +300,12 @@
       <workItem from="1519744401450" duration="5517000" />
       <workItem from="1519811256254" duration="1293000" />
       <workItem from="1519939854589" duration="1259000" />
+      <workItem from="1519941193117" duration="354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27077000" />
+    <option name="totallyTimeSpent" value="27431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1857" height="1092" extended-state="6" />
@@ -268,6 +356,26 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/PPVIS/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/MainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6516">
+          <caret line="362" column="99" lean-forward="false" selection-start-line="362" selection-start-column="99" selection-end-line="362" selection-end-column="99" />
+          <folding>
+            <element signature="method#MainWindow#0;class#MainWindow#0" expanded="false" />
+            <element signature="method#centeringWindow#0;class#MainWindow#0" expanded="false" />
+            <element signature="method#showWindow#0;class#MainWindow#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
@@ -279,17 +387,9 @@
         <state relative-caret-position="1008">
           <caret line="108" column="1" lean-forward="true" selection-start-line="108" selection-start-column="1" selection-end-line="108" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#MainWindow#0;class#MainWindow#0" expanded="false" />
             <element signature="method#centeringWindow#0;class#MainWindow#0" expanded="false" />
             <element signature="method#showWindow#0;class#MainWindow#0" expanded="false" />
-            <element signature="class#FourthTask#0" expanded="false" />
-            <element signature="e#13585#14321#0" expanded="true" />
-            <element signature="e#14320#14321#0" expanded="true" />
-            <element signature="e#14370#14650#0" expanded="true" />
-            <element signature="e#14649#14650#0" expanded="true" />
-            <element signature="e#14703#14982#0" expanded="true" />
-            <element signature="e#14981#14982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -307,17 +407,9 @@
         <state relative-caret-position="5508">
           <caret line="306" column="0" lean-forward="false" selection-start-line="306" selection-start-column="0" selection-end-line="306" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#MainWindow#0;class#MainWindow#0" expanded="false" />
             <element signature="method#centeringWindow#0;class#MainWindow#0" expanded="false" />
             <element signature="method#showWindow#0;class#MainWindow#0" expanded="false" />
-            <element signature="class#FourthTask#0" expanded="false" />
-            <element signature="e#13585#14321#0" expanded="true" />
-            <element signature="e#14320#14321#0" expanded="true" />
-            <element signature="e#14370#14650#0" expanded="true" />
-            <element signature="e#14649#14650#0" expanded="true" />
-            <element signature="e#14703#14982#0" expanded="true" />
-            <element signature="e#14981#14982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -335,17 +427,9 @@
         <state relative-caret-position="666">
           <caret line="37" column="8" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#MainWindow#0;class#MainWindow#0" expanded="false" />
             <element signature="method#centeringWindow#0;class#MainWindow#0" expanded="false" />
             <element signature="method#showWindow#0;class#MainWindow#0" expanded="false" />
-            <element signature="class#FourthTask#0" expanded="false" />
-            <element signature="e#13585#14321#0" expanded="true" />
-            <element signature="e#14320#14321#0" expanded="true" />
-            <element signature="e#14370#14650#0" expanded="true" />
-            <element signature="e#14649#14650#0" expanded="true" />
-            <element signature="e#14703#14982#0" expanded="true" />
-            <element signature="e#14981#14982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -363,17 +447,9 @@
         <state relative-caret-position="6480">
           <caret line="360" column="11" lean-forward="false" selection-start-line="360" selection-start-column="11" selection-end-line="360" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#MainWindow#0;class#MainWindow#0" expanded="false" />
             <element signature="method#centeringWindow#0;class#MainWindow#0" expanded="false" />
             <element signature="method#showWindow#0;class#MainWindow#0" expanded="false" />
-            <element signature="class#FourthTask#0" expanded="false" />
-            <element signature="e#13585#14321#0" expanded="true" />
-            <element signature="e#14320#14321#0" expanded="true" />
-            <element signature="e#14370#14650#0" expanded="true" />
-            <element signature="e#14649#14650#0" expanded="true" />
-            <element signature="e#14703#14982#0" expanded="true" />
-            <element signature="e#14981#14982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -391,17 +467,9 @@
         <state relative-caret-position="7560">
           <caret line="360" column="11" lean-forward="false" selection-start-line="360" selection-start-column="11" selection-end-line="360" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#MainWindow#0;class#MainWindow#0" expanded="false" />
             <element signature="method#centeringWindow#0;class#MainWindow#0" expanded="false" />
             <element signature="method#showWindow#0;class#MainWindow#0" expanded="false" />
-            <element signature="class#FourthTask#0" expanded="false" />
-            <element signature="e#13585#14321#0" expanded="true" />
-            <element signature="e#14320#14321#0" expanded="true" />
-            <element signature="e#14370#14650#0" expanded="true" />
-            <element signature="e#14649#14650#0" expanded="true" />
-            <element signature="e#14703#14982#0" expanded="true" />
-            <element signature="e#14981#14982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -419,17 +487,9 @@
         <state relative-caret-position="7560">
           <caret line="360" column="11" lean-forward="false" selection-start-line="360" selection-start-column="11" selection-end-line="360" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#MainWindow#0;class#MainWindow#0" expanded="false" />
             <element signature="method#centeringWindow#0;class#MainWindow#0" expanded="false" />
             <element signature="method#showWindow#0;class#MainWindow#0" expanded="false" />
-            <element signature="class#FourthTask#0" expanded="false" />
-            <element signature="e#13585#14321#0" expanded="true" />
-            <element signature="e#14320#14321#0" expanded="true" />
-            <element signature="e#14370#14650#0" expanded="true" />
-            <element signature="e#14649#14650#0" expanded="true" />
-            <element signature="e#14703#14982#0" expanded="true" />
-            <element signature="e#14981#14982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -447,17 +507,9 @@
         <state relative-caret-position="7371">
           <caret line="351" column="63" lean-forward="true" selection-start-line="351" selection-start-column="63" selection-end-line="351" selection-end-column="63" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#MainWindow#0;class#MainWindow#0" expanded="false" />
             <element signature="method#centeringWindow#0;class#MainWindow#0" expanded="false" />
             <element signature="method#showWindow#0;class#MainWindow#0" expanded="false" />
-            <element signature="class#FourthTask#0" expanded="false" />
-            <element signature="e#13585#14321#0" expanded="true" />
-            <element signature="e#14320#14321#0" expanded="true" />
-            <element signature="e#14370#14650#0" expanded="true" />
-            <element signature="e#14649#14650#0" expanded="true" />
-            <element signature="e#14703#14982#0" expanded="true" />
-            <element signature="e#14981#14982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -475,17 +527,9 @@
         <state relative-caret-position="7476">
           <caret line="356" column="39" lean-forward="false" selection-start-line="356" selection-start-column="39" selection-end-line="356" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#MainWindow#0;class#MainWindow#0" expanded="false" />
             <element signature="method#centeringWindow#0;class#MainWindow#0" expanded="false" />
             <element signature="method#showWindow#0;class#MainWindow#0" expanded="false" />
-            <element signature="class#FourthTask#0" expanded="false" />
-            <element signature="e#13585#14321#0" expanded="true" />
-            <element signature="e#14320#14321#0" expanded="true" />
-            <element signature="e#14370#14650#0" expanded="true" />
-            <element signature="e#14649#14650#0" expanded="true" />
-            <element signature="e#14703#14982#0" expanded="true" />
-            <element signature="e#14981#14982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -503,17 +547,9 @@
         <state relative-caret-position="315">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#MainWindow#0;class#MainWindow#0" expanded="false" />
             <element signature="method#centeringWindow#0;class#MainWindow#0" expanded="false" />
             <element signature="method#showWindow#0;class#MainWindow#0" expanded="false" />
-            <element signature="class#FourthTask#0" expanded="false" />
-            <element signature="e#13585#14321#0" expanded="true" />
-            <element signature="e#14320#14321#0" expanded="true" />
-            <element signature="e#14370#14650#0" expanded="true" />
-            <element signature="e#14649#14650#0" expanded="true" />
-            <element signature="e#14703#14982#0" expanded="true" />
-            <element signature="e#14981#14982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -531,17 +567,9 @@
         <state relative-caret-position="714">
           <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#MainWindow#0;class#MainWindow#0" expanded="false" />
             <element signature="method#centeringWindow#0;class#MainWindow#0" expanded="false" />
             <element signature="method#showWindow#0;class#MainWindow#0" expanded="false" />
-            <element signature="class#FourthTask#0" expanded="false" />
-            <element signature="e#13585#14321#0" expanded="true" />
-            <element signature="e#14320#14321#0" expanded="true" />
-            <element signature="e#14370#14650#0" expanded="true" />
-            <element signature="e#14649#14650#0" expanded="true" />
-            <element signature="e#14703#14982#0" expanded="true" />
-            <element signature="e#14981#14982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -559,17 +587,9 @@
         <state relative-caret-position="504">
           <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#MainWindow#0;class#MainWindow#0" expanded="false" />
             <element signature="method#centeringWindow#0;class#MainWindow#0" expanded="false" />
             <element signature="method#showWindow#0;class#MainWindow#0" expanded="false" />
-            <element signature="class#FourthTask#0" expanded="false" />
-            <element signature="e#13585#14321#0" expanded="true" />
-            <element signature="e#14320#14321#0" expanded="true" />
-            <element signature="e#14370#14650#0" expanded="true" />
-            <element signature="e#14649#14650#0" expanded="true" />
-            <element signature="e#14703#14982#0" expanded="true" />
-            <element signature="e#14981#14982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -582,14 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/util/ArrayList.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -597,22 +609,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/MainWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/FourthTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="362" column="99" lean-forward="false" selection-start-line="362" selection-start-column="99" selection-end-line="362" selection-end-column="99" />
+        <state relative-caret-position="1224">
+          <caret line="68" column="1" lean-forward="false" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2026#2607#0" expanded="true" />
+            <element signature="e#2606#2607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/FifthTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="117" column="1" lean-forward="false" selection-start-line="117" selection-start-column="1" selection-end-line="117" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3518#4254#0" expanded="true" />
+            <element signature="e#4253#4254#0" expanded="true" />
+            <element signature="e#4303#4583#0" expanded="true" />
+            <element signature="e#4582#4583#0" expanded="true" />
+            <element signature="e#4636#4915#0" expanded="true" />
+            <element signature="e#4914#4915#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/FirstTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="61" column="1" lean-forward="false" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1599#2189#0" expanded="true" />
+            <element signature="e#2188#2189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/SecondTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="62" column="1" lean-forward="false" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1568#1859#0" expanded="true" />
+            <element signature="e#1858#1859#0" expanded="true" />
+            <element signature="e#1904#2218#0" expanded="true" />
+            <element signature="e#2217#2218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/ThirdTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1202">
+          <caret line="71" column="1" lean-forward="false" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1979#2632#0" expanded="true" />
+            <element signature="e#2631#2632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/MainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <folding>
             <element signature="method#MainWindow#0;class#MainWindow#0" expanded="false" />
             <element signature="method#centeringWindow#0;class#MainWindow#0" expanded="false" />
             <element signature="method#showWindow#0;class#MainWindow#0" expanded="false" />
-            <element signature="class#FourthTask#0" expanded="false" />
-            <element signature="e#13585#14321#0" expanded="true" />
-            <element signature="e#14320#14321#0" expanded="true" />
-            <element signature="e#14370#14650#0" expanded="true" />
-            <element signature="e#14649#14650#0" expanded="true" />
-            <element signature="e#14703#14982#0" expanded="true" />
-            <element signature="e#14981#14982#0" expanded="true" />
           </folding>
         </state>
       </provider>
