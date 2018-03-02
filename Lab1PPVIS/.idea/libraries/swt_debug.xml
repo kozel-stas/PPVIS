@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="swt">
+  <library name="swt-debug">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../SWT/swt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../SWT/swt-debug.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

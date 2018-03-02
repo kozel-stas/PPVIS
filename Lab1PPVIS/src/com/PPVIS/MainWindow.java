@@ -39,6 +39,7 @@ public class MainWindow {
         new ThirdTask(shell).showWindowThirdTask();
         new FourthTask(shell).showWindowFourthTask();
         new FifthTask(shell).showWindowFirthTask();
+        new DopTask(shell,display).showWindowDopTask();
         shell.pack();
         shell.open();
         while (!shell.isDisposed()){

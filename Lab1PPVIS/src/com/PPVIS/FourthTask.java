@@ -57,7 +57,7 @@ class FourthTask {
                 if (!text.getText().isEmpty()) {
                     for (Button button : buttonSet)
                         if (button.getText().equals(text.getText())) {
-                            button.setSelection((button.getSelection()==false)?true:false);
+                            button.setSelection(!button.getSelection());
                             return;
                         }
                     warningNotExist.open();
