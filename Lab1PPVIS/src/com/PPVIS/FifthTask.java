@@ -1,8 +1,8 @@
 package com.PPVIS;
 
 import org.eclipse.swt.SWT;
-import org.eclipse.swt.events.SelectionAdapter;
-import org.eclipse.swt.events.SelectionEvent;
+import org.eclipse.swt.events.MouseAdapter;
+import org.eclipse.swt.events.MouseEvent;
 import org.eclipse.swt.layout.RowData;
 import org.eclipse.swt.layout.RowLayout;
 import org.eclipse.swt.widgets.*;
@@ -47,23 +47,17 @@ class FifthTask{
         warningEmpty.setMessage("Введите текст");
         Text text=new Text(group,SWT.BORDER);
         RowData layoutText=new RowData();
-        layoutText.width=150;
+        layoutText.width=200;
         text.setLayoutData(layoutText);
-        Button buttonSwap=new Button(group,SWT.PUSH);
+        Group group1=new Group(group,SWT.SHADOW_IN);
+        RowLayout rowLayout=new RowLayout(SWT.HORIZONTAL);
+        group1.setLayout(rowLayout);
+        ButtonEight buttonSwap=new ButtonEight(group1,SWT.PUSH);
         buttonSwap.setText("Нажми");
-        RowData layoutButtonSwap=new RowData();
-        layoutButtonSwap.width=150;
-        buttonSwap.setLayoutData(layoutButtonSwap);
-        Button buttonSwapColumn=new Button(group,SWT.PUSH);
+        ButtonEight buttonSwapColumn=new ButtonEight(group1,SWT.PUSH);
         buttonSwapColumn.setText("Меня");
-        RowData layoutButtonSwapColumn=new RowData();
-        layoutButtonSwapColumn.width=150;
-        buttonSwapColumn.setLayoutData(layoutButtonSwapColumn);
-        Button buttonSwapColumnBack=new Button(group,SWT.PUSH);
-        buttonSwapColumnBack.setText("А я?");
-        RowData layoutButtonSwapColumnBack=new RowData();
-        layoutButtonSwapColumnBack.width=150;
-        buttonSwapColumnBack.setLayoutData(layoutButtonSwapColumnBack);
+        ButtonEight buttonSwapColumnBack=new ButtonEight(group1,SWT.PUSH);
+        buttonSwapColumnBack.setText("Тоже");
         final Table table=new Table(group,SWT.NONE);
         RowData layoutTable=new RowData();
         layoutTable.width=150;
@@ -75,13 +69,13 @@ class FifthTask{
         TableColumn tableColumnSecond=new TableColumn(table,SWT.NONE);
         tableColumnFirst.setText("Первый");
         tableColumnSecond.setText("Второй");
-        tableColumnFirst.setWidth(75);
-        tableColumnSecond.setWidth(75);
+        tableColumnFirst.setWidth(100);
+        tableColumnSecond.setWidth(100);
         table.getColumn(0).pack();
         table.getColumn(1).pack();
-        buttonSwap.addSelectionListener(new SelectionAdapter() {
+        buttonSwap.addMouseListener(new MouseAdapter(){
             @Override
-            public void widgetSelected(SelectionEvent e) {
+            public void mouseDown(MouseEvent e) {
                 String text1 = text.getText();
                 if(!text1.isEmpty()){
                     for(TableItem tableItem:table.getItems())
@@ -96,18 +90,18 @@ class FifthTask{
                 } else warningEmpty.open();
             }
         });
-        buttonSwapColumn.addSelectionListener(new SelectionAdapter() {
+        buttonSwapColumn.addMouseListener(new MouseAdapter(){
             @Override
-            public void widgetSelected(SelectionEvent e) {
+            public void mouseDown(MouseEvent e) {
                 if (table.getSelection().length > 0) {
                     buttonSwapColumn(table,0);
                 } else warningNotExist1.open();
 
             }
         });
-        buttonSwapColumnBack.addSelectionListener(new SelectionAdapter() {
+        buttonSwapColumnBack.addMouseListener(new MouseAdapter(){
             @Override
-            public void widgetSelected(SelectionEvent e) {
+            public void mouseDown(MouseEvent e) {
                 if (table.getSelection().length > 0) {
                     buttonSwapColumn(table,1);
                 } else warningNotExist2.open();

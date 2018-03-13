@@ -1,6 +1,8 @@
 package com.PPVIS;
 
 import org.eclipse.swt.SWT;
+import org.eclipse.swt.events.MouseAdapter;
+import org.eclipse.swt.events.MouseEvent;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.swt.layout.RowData;
@@ -38,11 +40,8 @@ class FourthTask {
         RowData layoutText = new RowData();
         layoutText.width = 150;
         text.setLayoutData(layoutText);
-        Button buttonCheck = new Button(group, SWT.PUSH);
+        ButtonEight buttonCheck = new ButtonEight(group, SWT.PUSH);
         buttonCheck.setText("Нажми");
-        RowData layoutButtonCheck = new RowData();
-        layoutButtonCheck.width = 150;
-        buttonCheck.setLayoutData(layoutButtonCheck);
         RowData layoutButtonSwap = new RowData();
         layoutButtonSwap.width = 150;
         for (int buttonInd = 0; buttonInd < pushCount; buttonInd++) {
@@ -51,9 +50,9 @@ class FourthTask {
             buttonSwap.setText(String.valueOf(buttonInd+1));
             buttonSet.add(buttonSwap);
         }
-        buttonCheck.addSelectionListener(new SelectionAdapter() {
+        buttonCheck.addMouseListener(new MouseAdapter(){
             @Override
-            public void widgetSelected(SelectionEvent e) {
+            public void mouseDown(MouseEvent e) {
                 if (!text.getText().isEmpty()) {
                     for (Button button : buttonSet)
                         if (button.getText().equals(text.getText())) {

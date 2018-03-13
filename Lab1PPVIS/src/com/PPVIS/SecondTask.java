@@ -1,8 +1,11 @@
 package com.PPVIS;
 
 import org.eclipse.swt.SWT;
+import org.eclipse.swt.events.MouseAdapter;
+import org.eclipse.swt.events.MouseEvent;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
+import org.eclipse.swt.layout.FillLayout;
 import org.eclipse.swt.layout.RowData;
 import org.eclipse.swt.layout.RowLayout;
 import org.eclipse.swt.widgets.*;
@@ -31,27 +34,24 @@ class SecondTask{
         RowData layoutText=new RowData();
         layoutText.width=150;
         text.setLayoutData(layoutText);
-        Button buttonChange=new Button(group,SWT.PUSH);
+        Group group1=new Group(group,SWT.SHADOW_IN);
+        RowLayout rowLayout=new RowLayout(SWT.HORIZONTAL);
+        group1.setLayout(rowLayout);
+        ButtonEight buttonChange=new ButtonEight(group1,SWT.PUSH);
         buttonChange.setText("Нажми");
-        RowData layoutButtonChange=new RowData();
-        layoutButtonChange.width=150;
-        buttonChange.setLayoutData(layoutButtonChange);
-        Button buttonSwap=new Button(group,SWT.PUSH);
-        buttonSwap.setText("И меня тоже");
-        RowData layoutButtonSwap=new RowData();
-        layoutButtonSwap.width=150;
-        buttonSwap.setLayoutData(layoutButtonSwap);
-        buttonSwap.addSelectionListener(new SelectionAdapter() {
+        ButtonEight buttonSwap=new ButtonEight(group1,SWT.PUSH);
+        buttonSwap.setText("Меня");
+        buttonSwap.addMouseListener(new MouseAdapter(){
             @Override
-            public void widgetSelected(SelectionEvent e) {
+            public void mouseDown(MouseEvent e) {
                 String swapLine=buttonSwap.getText();
                 buttonSwap.setText(buttonChange.getText());
                 buttonChange.setText(swapLine);
             }
         });
-        buttonChange.addSelectionListener(new SelectionAdapter() {
+        buttonChange.addMouseListener(new MouseAdapter(){
             @Override
-            public void widgetSelected(SelectionEvent e) {
+            public void mouseDown(MouseEvent e) {
                 if(!text.getText().isEmpty()){
                     buttonSwap.setText(text.getText());
                     text.setText("");

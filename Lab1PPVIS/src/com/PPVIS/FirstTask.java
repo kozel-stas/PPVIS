@@ -1,6 +1,8 @@
 package com.PPVIS;
 
 import org.eclipse.swt.SWT;
+import org.eclipse.swt.events.MouseAdapter;
+import org.eclipse.swt.events.MouseEvent;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.swt.layout.RowData;
@@ -37,14 +39,11 @@ class FirstTask{
         RowData layoutCombo=new RowData();
         layoutCombo.width=135;
         combo.setLayoutData(layoutCombo);
-        Button button=new Button(group,SWT.PUSH);
+        ButtonEight button=new ButtonEight(group,SWT.PUSH);
         button.setText("Нажми");
-        RowData layoutButton=new RowData();
-        layoutButton.width=150;
-        button.setLayoutData(layoutButton);
-        button.addSelectionListener(new SelectionAdapter() {
+        button.addMouseListener(new MouseAdapter(){
             @Override
-            public void widgetSelected(SelectionEvent e) {
+            public void mouseDown(MouseEvent e) {
                 if(!text.getText().isEmpty()){
                     for(int i=0;i<combo.getItemCount();i++)
                         if(combo.getItem(i).equals(text.getText())){
