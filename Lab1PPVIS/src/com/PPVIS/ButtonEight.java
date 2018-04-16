@@ -7,7 +7,6 @@ import org.eclipse.swt.graphics.Region;
 import org.eclipse.swt.layout.RowData;
 import org.eclipse.swt.widgets.Canvas;
 import org.eclipse.swt.widgets.Composite;
-import org.eclipse.swt.widgets.TypedListener;
 
 public class ButtonEight extends Canvas {
     private ButtonEight buttonEight = this;
@@ -25,7 +24,7 @@ public class ButtonEight extends Canvas {
         setDefaultLayoutData();
         setDefaultColor();
         setDefaultRegionAndColor();
-        initListener();
+       // initListener();
     }
 
     public ButtonEight(Composite parent, int style, int radiusLittleCircle, int radiusBigCircle) {
@@ -100,16 +99,6 @@ public class ButtonEight extends Canvas {
         backgroundColorClicked = new Color(null, 200, 0, 0);
     }
 
-    public void addSelectionListener(SelectionListener listener) {
-        this.checkWidget();
-        if (listener == null) {
-            throw new IllegalArgumentException();
-        }
-        TypedListener var2 = new TypedListener(listener);
-        this.addListener(13, var2);
-        this.addListener(14, var2);
-    }
-
     private int[] polygonCircle(int radius, int offsetX, int offsetY) {
         final int accuracy = 6;
         int[] polygon = new int[4 * accuracy * radius];
@@ -131,39 +120,6 @@ public class ButtonEight extends Canvas {
     public void setText(String text) {
         if (text != null) this.text = text;
         redraw();
-    }
-
-    public Color getBackgroundColor() {
-        return backgroundColor;
-    }
-
-    public void setBackgroundColor(Color backgroundColor) {
-        this.backgroundColor = backgroundColor;
-        this.setBackground(backgroundColor);
-    }
-
-    public Color getBackgroundColorClicked() {
-        return backgroundColorClicked;
-    }
-
-    public void setBackgroundColorClicked(Color backgroundColorClicked) {
-        this.backgroundColorClicked = backgroundColorClicked;
-    }
-
-    public Color getBackgroundColorMouseOn() {
-        return backgroundColorMouseOn;
-    }
-
-    public void setBackgroundColorMouseOn(Color backgroundColorMouseOn) {
-        this.backgroundColorMouseOn = backgroundColorMouseOn;
-    }
-
-    public int getRadiusLittleCircle() {
-        return radiusLittleCircle;
-    }
-
-    public int getRadiusBigCircle() {
-        return radiusBigCircle;
     }
 
 }
