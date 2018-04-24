@@ -17,8 +17,9 @@ public class DeleteSurnameMark {
     private MainDisplay mainDisplay;
     private Shell shell;
     private Color color = new Color(null, 222, 204, 204);
+    private Controller controller;
 
-    public DeleteSurnameMark(Display display, MainDisplay mainDisplay) {
+    public DeleteSurnameMark(Display display, MainDisplay mainDisplay, Controller controller) {
         this.display = display;
         this.mainDisplay = mainDisplay;
         shell = new Shell(display, SWT.TITLE | SWT.CLOSE);
@@ -30,6 +31,7 @@ public class DeleteSurnameMark {
         shell.setText("DeleteWindow");
         shell.setSize(500, 340);
         initDeleteDisplay();
+        this.controller = controller;
         shell.open();
         shell.setFocus();
     }
@@ -89,9 +91,9 @@ public class DeleteSurnameMark {
                     try {
                         int top = Integer.parseInt(topLimitText);
                         int bottom = Integer.parseInt(bottomLimitText);
-                        List<Student> students = Controller.getInstance().find(surnameText,subjText, top, bottom);
+                        List<Student> students = controller.find(surnameText, subjText, top, bottom);
                         if (students.size() > 0) {
-                            Controller.getInstance().deleteStudent(students);
+                            controller.deleteStudent(students);
                             messageBox.setMessage("Удалено " + students.size() + " студентов");
                             messageBox.open();
                             mainDisplay.redraw();

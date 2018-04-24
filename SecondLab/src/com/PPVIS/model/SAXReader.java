@@ -68,28 +68,35 @@ public class SAXReader extends DefaultHandler {
 
     @Override
     public void characters(char[] ch, int start, int length) throws SAXException {
-        if(thisElem==Element.mark){
-            exam.setMark(Integer.parseInt(new String(ch,start,length).trim()));
+        String str = new String(ch, start, length).trim();
+        if (thisElem == Element.mark) {
+            if (!"".equals(str))
+                exam.setMark(Integer.parseInt(str));
             return;
         }
-        if(thisElem==Element.nameSubj){
-            exam.setNameExam(new String(ch,start,length).trim());
+        if (thisElem == Element.nameSubj) {
+            if (!"".equals(str))
+                exam.setNameExam(str);
             return;
         }
-        if(thisElem==Element.name){
-            student.setName(new String(ch,start,length).trim());
+        if (thisElem == Element.name) {
+            if (!"".equals(str))
+                student.setName(str);
             return;
         }
-        if(thisElem==Element.surname){
-            student.setSurname(new String(ch,start,length).trim());
+        if (thisElem == Element.surname) {
+            if (!"".equals(str))
+                student.setSurname(str);
             return;
         }
-        if(thisElem==Element.patronymic){
-            student.setPatronymic(new String(ch,start,length).trim());
+        if (thisElem == Element.patronymic) {
+            if (!"".equals(str))
+                student.setPatronymic(str);
             return;
         }
-        if(thisElem==Element.group){
-            student.setGroup(Integer.parseInt(new String(ch,start,length).trim()));
+        if (thisElem == Element.group) {
+            if (!"".equals(str))
+                student.setGroup(Integer.parseInt(str));
             return;
         }
     }
@@ -98,24 +105,24 @@ public class SAXReader extends DefaultHandler {
     public void endElement(String namespaceURI, String localName, String qName) throws SAXException {
         if (qName.equals("student")) {
             students.add(student);
-            student=null;
+            student = null;
             return;
         }
         if (qName.equals("exam")) {
             exams.add(exam);
-            exam=null;
+            exam = null;
             return;
         }
         if (qName.equals("exams")) {
             student.setExams(exams);
-            exams=null;
+            exams = null;
             return;
         }
     }
 
     public List<Student> getStudents() {
         List list = students;
-        students=null;
+        students = null;
         return list;
     }
 }

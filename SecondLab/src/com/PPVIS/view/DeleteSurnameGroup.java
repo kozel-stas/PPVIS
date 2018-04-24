@@ -17,8 +17,9 @@ public class DeleteSurnameGroup {
     private MainDisplay mainDisplay;
     private Shell shell;
     private Color color = new Color(null, 222, 204, 204);
+    private Controller controller;
 
-    public DeleteSurnameGroup(Display display, MainDisplay mainDisplay) {
+    public DeleteSurnameGroup(Display display, MainDisplay mainDisplay, Controller controller) {
         this.display = display;
         this.mainDisplay = mainDisplay;
         shell = new Shell(display, SWT.TITLE | SWT.CLOSE);
@@ -29,6 +30,7 @@ public class DeleteSurnameGroup {
         shell.setLayout(gridLayout);
         shell.setText("DeleteWindow");
         shell.setSize(500, 220);
+        this.controller = controller;
         initDeleteDisplay();
         shell.open();
         shell.setFocus();
@@ -68,9 +70,9 @@ public class DeleteSurnameGroup {
                 if (!"".equals(groupText) && !"".equals(surnameText)) {
                     try {
                         int group = Integer.parseInt(groupText);
-                        List<Student> students = Controller.getInstance().find(surnameText,group);
+                        List<Student> students = controller.find(surnameText,group);
                         if(students.size()>0){
-                            Controller.getInstance().deleteStudent(students);
+                            controller.deleteStudent(students);
                             messageBox.setMessage("Удалено "+students.size()+" студентов" );
                             messageBox.open();
                             mainDisplay.redraw();

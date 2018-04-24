@@ -23,8 +23,9 @@ public class FindSurnameMark {
     private int size = 10;
     private List<Student> students;
     private Table table;
+    private Controller controller;
 
-    public FindSurnameMark(Display display, MainDisplay mainDisplay) {
+    public FindSurnameMark(Display display, MainDisplay mainDisplay, Controller controller) {
         this.display = display;
         this.mainDisplay = mainDisplay;
         shell = new Shell(display, SWT.TITLE | SWT.CLOSE);
@@ -36,6 +37,7 @@ public class FindSurnameMark {
         shell.setText("FindWindow");
         shell.setSize(1500, 648);
         initFindDisplay();
+        this.controller=controller;
         shell.open();
         shell.setFocus();
     }
@@ -95,7 +97,7 @@ public class FindSurnameMark {
                     try {
                         int top = Integer.parseInt(topLimitText);
                         int bottom = Integer.parseInt(bottomLimitText);
-                        students = Controller.getInstance().find(surnameText, subjText, top, bottom);
+                        students = controller.find(surnameText, subjText, top, bottom);
                         if (students.size() == 0) {
                             messageBox.setMessage("Не найдено таких студентов");
                             messageBox.open();

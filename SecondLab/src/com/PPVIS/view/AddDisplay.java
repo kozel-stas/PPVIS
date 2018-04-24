@@ -18,8 +18,9 @@ public class AddDisplay {
     private MainDisplay mainDisplay;
     private Shell shell;
     private Color color = new Color(null, 222, 204, 204);
+    private Controller controller;
 
-    public AddDisplay(Display display, MainDisplay mainDisplay) {
+    public AddDisplay(Display display, MainDisplay mainDisplay, Controller controller) {
         this.display = display;
         this.mainDisplay = mainDisplay;
         shell = new Shell(display, SWT.TITLE | SWT.CLOSE);
@@ -31,6 +32,7 @@ public class AddDisplay {
         shell.setText("AddWindow");
         shell.setSize(500, 480);
         initAddDisplay();
+        this.controller=controller;
         shell.open();
         shell.setFocus();
     }
@@ -159,7 +161,7 @@ public class AddDisplay {
             public void widgetSelected(SelectionEvent selectionEvent) {
                 if (!"".equals(name.getText()) && !"".equals(surname.getText()) && !"".equals(patronymic.getText())) {
                     if (exams.size() == 5) {
-                        if (Controller.getInstance().addStudent(name.getText(), surname.getText(), patronymic.getText(), groupNumber.getText(), exams)) {
+                        if (controller.addStudent(name.getText(), surname.getText(), patronymic.getText(), groupNumber.getText(), exams)) {
                             messageBox.setMessage("Студент успешно добавлен");
                             messageBox.open();
                             mainDisplay.redraw();

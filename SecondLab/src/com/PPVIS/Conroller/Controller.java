@@ -14,20 +14,13 @@ import java.util.List;
 import java.util.regex.Pattern;
 
 public class Controller {
-    private static Controller controller;
     private static Data data;
     private WriterXML writerXML;
     private SAXReader saxReader;
     private Pattern FIOPattern = Pattern.compile("(^[A-Z]+[a-z]*$)|(^[А-Я]+[а-я]*$)");
 
-    private Controller() {
+    public Controller() {
         data = new Data();
-    }
-
-    public static synchronized Controller getInstance() {
-        if (controller == null)
-            controller = new Controller();
-        return controller;
     }
 
     public boolean addStudent(String name, String surname, String patronic, String groupText, List<Exam> exams) {

@@ -23,8 +23,9 @@ public class FindSurnameAverage {
     private int size = 10;
     private List<Student> students;
     private Table table;
+    private Controller controller;
 
-    public FindSurnameAverage(Display display, MainDisplay mainDisplay) {
+    public FindSurnameAverage(Display display, MainDisplay mainDisplay, Controller controller) {
         this.display = display;
         this.mainDisplay = mainDisplay;
         shell = new Shell(display, SWT.TITLE | SWT.CLOSE);
@@ -36,6 +37,7 @@ public class FindSurnameAverage {
         shell.setText("FindWindow");
         shell.setSize(1500, 586);
         initFindDisplay();
+        this.controller = controller;
         shell.open();
         shell.setFocus();
     }
@@ -85,9 +87,9 @@ public class FindSurnameAverage {
                     try {
                         double top = Double.parseDouble(topLimitText);
                         double bottom = Double.parseDouble(bottomLimitText);
-                        FindSurnameAverage.this.students = Controller.getInstance().find(surnameText, top, bottom);
+                        FindSurnameAverage.this.students = controller.find(surnameText, top, bottom);
                         if(students.size()==0) {
-                            messageBox.setMessage("Ненайдено таких студентов");
+                            messageBox.setMessage("Не найдено таких студентов");
                             messageBox.open();
                         }
                         redraw();

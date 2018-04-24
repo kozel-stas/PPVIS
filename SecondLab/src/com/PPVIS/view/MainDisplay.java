@@ -23,7 +23,8 @@ public class MainDisplay {
     private File file;
     private int numberLineTable = 30;
     private int currentPage = 0;
-
+    private Controller controller;
+    
     public MainDisplay() {
         shell.setBackground(new Color(null, 222, 204, 204));
         shell.setText("TableEditor");
@@ -31,6 +32,8 @@ public class MainDisplay {
         shell.setModified(false);
         centerWindow();
         initMenuBar();
+        controller = new Controller();
+        initTable();
         shell.open();
         while (!shell.isDisposed()) {
             if (!display.readAndDispatch()) {
@@ -65,9 +68,10 @@ public class MainDisplay {
 
             @Override
             public void widgetSelected(SelectionEvent selectionEvent) {
-                if (file == null) {
+                File file;
+                if (MainDisplay.this.file == null) {
                     try {
-                        File file = new File(openFileDialog("Save"));
+                         file = new File(openFileDialog("Save"));
                     } catch (NullPointerException ex){
                         return;
                     }
@@ -80,7 +84,7 @@ public class MainDisplay {
                         return;
                     }
                 }
-                if (!Controller.getInstance().save(file)) {
+                if (!controller.save(MainDisplay.this.file)) {
                     messageBox.setMessage("Ошибка при сохранении");
                     messageBox.open();
                 } else {
@@ -98,12 +102,13 @@ public class MainDisplay {
 
             @Override
             public void widgetSelected(SelectionEvent selectionEvent) {
+                File file;
                 try {
-                    File file = new File(openFileDialog("Open"));
+                     file = new File(openFileDialog("Open"));
                 } catch (NullPointerException ex){
                     return;
                 }
-                if (!Controller.getInstance().open(file)) {
+                if (!controller.open(file)) {
                     messageBox.setMessage("Ошибка при открытии");
                     messageBox.open();
                 } else redraw();
@@ -134,7 +139,7 @@ public class MainDisplay {
         addMenuItem.addSelectionListener(new SelectionAdapter() {
             @Override
             public void widgetSelected(SelectionEvent selectionEvent) {
-                AddDisplay addDisplay = new AddDisplay(display, MainDisplay.this);
+                AddDisplay addDisplay = new AddDisplay(display, MainDisplay.this, controller);
             }
         });
 
@@ -149,7 +154,7 @@ public class MainDisplay {
         findAverage.addSelectionListener(new SelectionAdapter() {
             @Override
             public void widgetSelected(SelectionEvent selectionEvent) {
-                new FindSurnameAverage(display,MainDisplay.this);
+                new FindSurnameAverage(display,MainDisplay.this, controller);
             }
         });
 
@@ -158,7 +163,7 @@ public class MainDisplay {
         findGroup.addSelectionListener(new SelectionAdapter() {
             @Override
             public void widgetSelected(SelectionEvent selectionEvent) {
-                new FindSurnameGroup(display,MainDisplay.this);
+                new FindSurnameGroup(display,MainDisplay.this,controller);
             }
         });
 
@@ -167,7 +172,7 @@ public class MainDisplay {
         findMark.addSelectionListener(new SelectionAdapter() {
             @Override
             public void widgetSelected(SelectionEvent selectionEvent) {
-                new FindSurnameMark(display,MainDisplay.this);
+                new FindSurnameMark(display,MainDisplay.this,controller);
             }
         });
 
@@ -182,7 +187,7 @@ public class MainDisplay {
         deleteAverage.addSelectionListener(new SelectionAdapter() {
             @Override
             public void widgetSelected(SelectionEvent selectionEvent) {
-                new DeleteSurnameAverage(display,MainDisplay.this);
+                new DeleteSurnameAverage(display,MainDisplay.this,controller);
             }
         });
 
@@ -191,7 +196,7 @@ public class MainDisplay {
         deleteGroup.addSelectionListener(new SelectionAdapter() {
             @Override
             public void widgetSelected(SelectionEvent selectionEvent) {
-                new DeleteSurnameGroup(display,MainDisplay.this);
+                new DeleteSurnameGroup(display,MainDisplay.this,controller);
             }
         });
 
@@ -200,7 +205,7 @@ public class MainDisplay {
         deleteMark.addSelectionListener(new SelectionAdapter() {
             @Override
             public void widgetSelected(SelectionEvent selectionEvent) {
-                new DeleteSurnameMark(display,MainDisplay.this);
+                new DeleteSurnameMark(display,MainDisplay.this,controller);
             }
         });
 
@@ -225,7 +230,7 @@ public class MainDisplay {
         addItem.addSelectionListener(new SelectionAdapter() {
             @Override
             public void widgetSelected(SelectionEvent selectionEvent) {
-                new AddDisplay(display, MainDisplay.this);
+                new AddDisplay(display, MainDisplay.this, controller);
             }
         });
 
@@ -236,7 +241,7 @@ public class MainDisplay {
         findItemAverage.addSelectionListener(new SelectionAdapter() {
             @Override
             public void widgetSelected(SelectionEvent selectionEvent) {
-                new FindSurnameAverage(display,MainDisplay.this);
+                new FindSurnameAverage(display,MainDisplay.this,controller);
             }
         });
 
@@ -247,7 +252,7 @@ public class MainDisplay {
         findItemGroup.addSelectionListener(new SelectionAdapter() {
             @Override
             public void widgetSelected(SelectionEvent selectionEvent) {
-                new FindSurnameGroup(display,MainDisplay.this);
+                new FindSurnameGroup(display,MainDisplay.this,controller);
             }
         });
 
@@ -259,7 +264,7 @@ public class MainDisplay {
         findItemMark.addSelectionListener(new SelectionAdapter() {
             @Override
             public void widgetSelected(SelectionEvent selectionEvent) {
-                new FindSurnameMark(display,MainDisplay.this);
+                new FindSurnameMark(display,MainDisplay.this,controller);
             }
         });
 
@@ -270,7 +275,7 @@ public class MainDisplay {
         deleteItemAverage.addSelectionListener(new SelectionAdapter() {
             @Override
             public void widgetSelected(SelectionEvent selectionEvent) {
-                new DeleteSurnameAverage(display,MainDisplay.this);
+                new DeleteSurnameAverage(display,MainDisplay.this,controller);
             }
         });
 
@@ -281,7 +286,7 @@ public class MainDisplay {
         deleteItemGroup.addSelectionListener(new SelectionAdapter() {
             @Override
             public void widgetSelected(SelectionEvent selectionEvent) {
-                new DeleteSurnameGroup(display,MainDisplay.this);
+                new DeleteSurnameGroup(display,MainDisplay.this,controller);
             }
         });
 
@@ -292,13 +297,15 @@ public class MainDisplay {
         deleteItemMark.addSelectionListener(new SelectionAdapter() {
             @Override
             public void widgetSelected(SelectionEvent selectionEvent) {
-                new DeleteSurnameMark(display,MainDisplay.this);
+                new DeleteSurnameMark(display,MainDisplay.this,controller);
             }
         });
 
         toolBar.pack();
 ///////////////////////////////////////////////////////////////////////////////////////toolbar
+    }
 
+    private void initTable(){
         Table table = new Table(shell, SWT.FULL_SELECTION);
         this.table = table;
         table.setBounds(20, 50, 1442, 24 * (numberLineTable + 1));
@@ -378,7 +385,7 @@ public class MainDisplay {
     }
 
     public void redraw() {
-        List<Student> studentList = Controller.getInstance().getStudent(currentPage, numberLineTable);
+        List<Student> studentList = controller.getStudent(currentPage, numberLineTable);
         table.removeAll();
         table.setBounds(20, 50, 1442, 24 * (numberLineTable + 1)+3);
         for (Student student : studentList) {
@@ -399,7 +406,7 @@ public class MainDisplay {
     }
 
     private String openFileDialog(String type) {
-        FileDialog fileDialog = new FileDialog(shell, SWT.SAVE);
+        FileDialog fileDialog = new FileDialog(shell, "Save".equals(type)?SWT.SAVE:SWT.OPEN);
         fileDialog.setText(type);
         fileDialog.setFilterPath("C:/");
         String[] filterExst = new String[1];

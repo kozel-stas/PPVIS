@@ -23,8 +23,9 @@ public class FindSurnameGroup {
     private int size = 10;
     private List<Student> students;
     private Table table;
+    private Controller controller;
 
-    public FindSurnameGroup(Display display, MainDisplay mainDisplay) {
+    public FindSurnameGroup(Display display, MainDisplay mainDisplay, Controller controller) {
         this.display = display;
         this.mainDisplay = mainDisplay;
         shell = new Shell(display, SWT.TITLE | SWT.CLOSE);
@@ -36,6 +37,7 @@ public class FindSurnameGroup {
         shell.setText("FindWindow");
         shell.setSize(1500, 525);
         initFindDisplay();
+        this.controller = controller;
         shell.open();
         shell.setFocus();
     }
@@ -74,7 +76,7 @@ public class FindSurnameGroup {
                 if (!"".equals(groupText) && !"".equals(surnameText)) {
                     try {
                         int group = Integer.parseInt(groupText);
-                        students = Controller.getInstance().find(surnameText,group);
+                        students = controller.find(surnameText,group);
                         if(students.size()==0) {
                             messageBox.setMessage("Не найдено таких студентов");
                             messageBox.open();
