@@ -69,4 +69,5 @@ public class Student {
     public int getGroup() {
         return group;
     }
+
 }

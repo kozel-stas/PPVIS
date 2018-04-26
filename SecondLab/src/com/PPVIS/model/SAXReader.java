@@ -69,34 +69,29 @@ public class SAXReader extends DefaultHandler {
     @Override
     public void characters(char[] ch, int start, int length) throws SAXException {
         String str = new String(ch, start, length).trim();
+        if ("".equals(str)) return;
         if (thisElem == Element.mark) {
-            if (!"".equals(str))
-                exam.setMark(Integer.parseInt(str));
+            exam.setMark(Integer.parseInt(str));
             return;
         }
         if (thisElem == Element.nameSubj) {
-            if (!"".equals(str))
-                exam.setNameExam(str);
+            exam.setNameExam(str);
             return;
         }
         if (thisElem == Element.name) {
-            if (!"".equals(str))
-                student.setName(str);
+            student.setName(str);
             return;
         }
         if (thisElem == Element.surname) {
-            if (!"".equals(str))
-                student.setSurname(str);
+            student.setSurname(str);
             return;
         }
         if (thisElem == Element.patronymic) {
-            if (!"".equals(str))
-                student.setPatronymic(str);
+            student.setPatronymic(str);
             return;
         }
         if (thisElem == Element.group) {
-            if (!"".equals(str))
-                student.setGroup(Integer.parseInt(str));
+            student.setGroup(Integer.parseInt(str));
             return;
         }
     }

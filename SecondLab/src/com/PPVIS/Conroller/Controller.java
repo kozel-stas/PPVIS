@@ -1,5 +1,6 @@
 package com.PPVIS.Conroller;
 
+import com.PPVIS.Conroller.strategy.FindStrategy;
 import com.PPVIS.model.*;
 import org.xml.sax.SAXException;
 
@@ -63,49 +64,27 @@ public class Controller {
         }
     }
 
-    public List<Student> find(String surname, double top, double bottom) {
+    public List<Student> find(CompareObject compareObject, FindStrategy findStrategy) {
         List<Student> students = new ArrayList<>();
         for (Student student : data.getStudents()) {
-            if (student.getSurname().equalsIgnoreCase(surname) && student.getAverageScore() > bottom && student.getAverageScore() < top)
+            if(findStrategy.filtrData(compareObject,student))
                 students.add(student);
         }
         return students;
-    }
-
-    public List<Student> find(String surname, int group) {
-        List<Student> students = new ArrayList<>();
-        for (Student student : data.getStudents()) {
-            if (student.getSurname().equalsIgnoreCase(surname) && student.getGroup() == group)
-                students.add(student);
-        }
-        return students;
-    }
-
-    public List<Student> find(String surname, String subj, int top, int bottom) {
-        List<Student> students = new ArrayList<>();
-        for (Student student : data.getStudents()) {
-            if (student.getSurname().equalsIgnoreCase(surname)) {
-                for (Exam exam : student.getExams())
-                    if (exam.getNameExam().equals(subj) && exam.getMark() < top && exam.getMark() > bottom)
-                        students.add(student);
-            }
-        }
-        return students;
-    }
-
-    public void deleteStudent(Student student) {
-        data.getStudents().remove(student);
     }
 
     public void deleteStudent(List<Student> students) {
-        for (Student student : students)
-            data.getStudents().remove(student);
+        data.getStudents().removeAll(students);
     }
 
-    public List<Student> getStudent(int page, int size) {
+    public List<Student> getStudents(int page, int size) {
         List<Student> students = data.getStudents();
         if (page * size < students.size())
             return students.subList(page * size, (page + 1) * size > students.size() ? students.size() : (page + 1) * size);
         return new ArrayList<Student>();
+    }
+
+    public List<Student> getStudents() {
+        return data.getStudents();
     }
 }

@@ -10,129 +10,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SecondLab$Main.ic" NAME="Main Coverage Results" MODIFIED="1524728598414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/PPVIS/Conroller/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="108" column="33" selection-start-line="108" selection-start-column="33" selection-end-line="108" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#addStudent#0;class#Controller#0" />
-                <element signature="method#save#0;class#Controller#0" />
-                <element signature="method#open#0;class#Controller#0" />
-                <element signature="method#find#0;class#Controller#0" />
-                <element signature="method#find#1;class#Controller#0" />
-                <element signature="method#find#2;class#Controller#0" />
-                <element signature="method#deleteStudent#1;class#Controller#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Data.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/PPVIS/model/Data.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="method#addStudent#0;class#Data#0" />
-                <element signature="method#isUniqFIO#0;class#Data#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindSurnameAverage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/FindSurnameAverage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="91" column="54" selection-start-line="91" selection-start-column="54" selection-end-line="91" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddDisplay.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/AddDisplay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="163" column="38" selection-start-line="163" selection-start-column="38" selection-end-line="163" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4012#5630#0" expanded="true" />
-                <element signature="e#5629#5630#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SAXReader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/PPVIS/model/SAXReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="131" column="1" lean-forward="true" selection-start-line="131" selection-start-column="1" selection-end-line="131" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#startElement#0;class#SAXReader#0" />
-                <element signature="method#characters#0;class#SAXReader#0" />
-                <element signature="method#endElement#0;class#SAXReader#0" />
-                <element signature="method#getStudents#0;class#SAXReader#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindSurnameGroup.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/FindSurnameGroup.java">
+      <file leaf-file-name="FindDisplay.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/FindDisplay.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="332">
-              <caret line="136" column="11" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
+              <caret line="67" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="67" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5015#5292#0" expanded="true" />
-                <element signature="e#5291#5292#0" expanded="true" />
-                <element signature="method#redraw#0;class#FindSurnameGroup#0" />
+                <element signature="e#1843#2242#0" expanded="true" />
+                <element signature="e#2241#2242#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeleteSurnameMark.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/DeleteSurnameMark.java">
+      <file leaf-file-name="FindCompositeMark.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/eclipse/widgets/FindCompositeMark.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="100" column="32" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeleteSurnameAverage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/DeleteSurnameAverage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
-              <folding>
-                <element signature="method#DeleteSurnameAverage#0;class#DeleteSurnameAverage#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindSurnameMark.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/FindSurnameMark.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="99" column="45" selection-start-line="99" selection-start-column="45" selection-end-line="99" selection-end-column="45" />
+            <state relative-caret-position="179">
+              <caret line="78" column="74" selection-start-line="78" selection-start-column="74" selection-end-line="78" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,11 +41,78 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeleteSurnameGroup.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/DeleteSurnameGroup.java">
+      <file leaf-file-name="MainDisplay.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/MainDisplay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
+            <state relative-caret-position="400">
+              <caret line="314" column="145" selection-start-line="314" selection-start-column="145" selection-end-line="314" selection-end-column="145" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#centerWindow#0;class#MainDisplay#0" />
+                <element signature="e#7610#7988#0" expanded="true" />
+                <element signature="e#7987#7988#0" expanded="true" />
+                <element signature="e#13269#13631#0" expanded="true" />
+                <element signature="e#13630#13631#0" expanded="true" />
+                <element signature="method#openFileDialog#0;class#MainDisplay#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeleteDisplay.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/DeleteDisplay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="706">
+              <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1631#2332#0" expanded="true" />
+                <element signature="e#2331#2332#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WriterXML.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/PPVIS/model/WriterXML.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindCompositeGroup.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/eclipse/widgets/FindCompositeGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableComposite.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/eclipse/widgets/TableComposite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#redraw#0;class#TableComposite#0" />
+                <element signature="method#redraw#1;class#TableComposite#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindCompositeAverage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/eclipse/widgets/FindCompositeAverage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="70" column="67" lean-forward="true" selection-start-line="70" selection-start-column="67" selection-end-line="70" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,6 +125,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -166,33 +135,58 @@
       <find>10</find>
       <find>(display,MainDisplay.this)</find>
       <find>new String(ch, start, length).trim()</find>
+      <find>color</find>
+      <find>if (!&quot;&quot;.equals(str))</find>
+      <find>open</find>
+      <find>getShell()</find>
+      <find>getColor()</find>
+      <find>shell</find>
     </findStrings>
     <replaceStrings>
       <replace>size</replace>
       <replace>(display,MainDisplay.this,controller)</replace>
       <replace>str</replace>
+      <replace>getColor()</replace>
+      <replace>getShell()</replace>
+      <replace>shell</replace>
+      <replace>color</replace>
+      <replace>this</replace>
     </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/PPVIS/Main.java" />
         <option value="$PROJECT_DIR$/src/com/PPVIS/Controller.java" />
         <option value="$PROJECT_DIR$/src/com/PPVIS/model/Exam.java" />
         <option value="$PROJECT_DIR$/src/com/PPVIS/model/WriterXML.java" />
         <option value="$PROJECT_DIR$/src/com/PPVIS/model/Data.java" />
-        <option value="$PROJECT_DIR$/src/com/PPVIS/model/Student.java" />
+        <option value="$PROJECT_DIR$/test.xml" />
+        <option value="$PROJECT_DIR$/src/com/PPVIS/model/SAXReader.java" />
+        <option value="$PROJECT_DIR$/test50.xml" />
         <option value="$PROJECT_DIR$/src/com/PPVIS/view/AddDisplay.java" />
+        <option value="$PROJECT_DIR$/src/com/PPVIS/view/ParentFindDisplay.java" />
+        <option value="$PROJECT_DIR$/src/com/PPVIS/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/PPVIS/view/FindSurnameAverage.java" />
+        <option value="$PROJECT_DIR$/src/org/eclipse/widgets/TableComposite.java" />
+        <option value="$PROJECT_DIR$/src/com/PPVIS/view/FindSurnameMark.java" />
+        <option value="$PROJECT_DIR$/src/com/PPVIS/view/FindSurnameGroup.java" />
+        <option value="$PROJECT_DIR$/src/com/PPVIS/model/Student.java" />
+        <option value="$PROJECT_DIR$/src/com/PPVIS/Conroller/strategy/FindStrategy.java" />
+        <option value="$PROJECT_DIR$/src/com/PPVIS/Conroller/strategy/FindAverageStrategy.java" />
+        <option value="$PROJECT_DIR$/src/com/PPVIS/Conroller/strategy/FindGroupStrategy.java" />
+        <option value="$PROJECT_DIR$/src/com/PPVIS/Conroller/strategy/FindMarkStrategy.java" />
+        <option value="$PROJECT_DIR$/src/com/PPVIS/Conroller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/com/PPVIS/model/CompareObject.java" />
+        <option value="$PROJECT_DIR$/src/org/eclipse/widgets/FormComposite.java" />
+        <option value="$PROJECT_DIR$/src/org/eclipse/widgets/FindCompositeAverage.java" />
         <option value="$PROJECT_DIR$/src/com/PPVIS/view/DeleteSurnameAverage.java" />
         <option value="$PROJECT_DIR$/src/com/PPVIS/view/DeleteSurnameGroup.java" />
         <option value="$PROJECT_DIR$/src/com/PPVIS/view/DeleteSurnameMark.java" />
-        <option value="$PROJECT_DIR$/src/com/PPVIS/view/FindSurnameGroup.java" />
-        <option value="$PROJECT_DIR$/src/com/PPVIS/view/FindSurnameMark.java" />
-        <option value="$PROJECT_DIR$/src/com/PPVIS/Conroller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/org/eclipse/widgets/FindCompositeGroup.java" />
+        <option value="$PROJECT_DIR$/src/org/eclipse/widgets/FindCompositeMark.java" />
+        <option value="$PROJECT_DIR$/src/com/PPVIS/view/FindDisplay.java" />
+        <option value="$PROJECT_DIR$/src/com/PPVIS/view/DeleteDisplay.java" />
         <option value="$PROJECT_DIR$/src/com/PPVIS/view/MainDisplay.java" />
-        <option value="$PROJECT_DIR$/test.xml" />
-        <option value="$PROJECT_DIR$/src/com/PPVIS/model/SAXReader.java" />
-        <option value="$PROJECT_DIR$/src/com/PPVIS/view/FindSurnameAverage.java" />
       </list>
     </option>
   </component>
@@ -203,8 +197,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="95" />
-    <option name="y" value="60" />
+    <option name="x" value="483" />
+    <option name="y" value="-18" />
     <option name="width" value="980" />
     <option name="height" value="1090" />
   </component>
@@ -213,7 +207,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,24 +233,29 @@
               <item name="SecondLab" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="PPVIS" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SecondLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SecondLab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="PPVIS" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/GraphEditor" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -317,11 +318,15 @@
       <workItem from="1523946045948" duration="27000" />
       <workItem from="1524400353167" duration="1181000" />
       <workItem from="1524553075037" duration="890000" />
+      <workItem from="1524567458054" duration="2054000" />
+      <workItem from="1524572781637" duration="5221000" />
+      <workItem from="1524651583952" duration="5699000" />
+      <workItem from="1524719443306" duration="10299000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52449000" />
+    <option name="totallyTimeSpent" value="75722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -336,25 +341,26 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3254902" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3254902" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3294271" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16341145" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18945312" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4013072" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4013072" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +371,27 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="16" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/PPVIS/Conroller/Controller.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/eclipse/widgets/FindCompositeAverage.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/PPVIS/view/FindDisplay.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="32" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -383,96 +409,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/MainDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2091">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#centerWindow#0;class#MainDisplay#0" />
-            <element signature="method#initMenuBar#0;class#MainDisplay#0" />
-            <element signature="e#4238#4411#0" expanded="true" />
-            <element signature="e#4410#4411#0" expanded="true" />
-            <element signature="method#initTable#0;class#MainDisplay#0" />
-            <element signature="method#redraw#0;class#MainDisplay#0" />
-            <element signature="method#openFileDialog#0;class#MainDisplay#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/model/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/model/Exam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/model/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="method#addStudent#0;class#Data#0" />
-            <element signature="method#isUniqFIO#0;class#Data#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/AddDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/model/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/model/Exam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/model/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/AddDisplay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
@@ -490,66 +426,10 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#centerWindow#0;class#MainDisplay#0" />
-            <element signature="method#initMenuBar#0;class#MainDisplay#0" />
-            <element signature="e#4238#4411#0" expanded="true" />
-            <element signature="e#4410#4411#0" expanded="true" />
-            <element signature="method#initTable#0;class#MainDisplay#0" />
-            <element signature="method#redraw#0;class#MainDisplay#0" />
-            <element signature="method#openFileDialog#0;class#MainDisplay#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/model/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/model/Exam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/model/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/AddDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="68" column="37" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/MainDisplay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2091">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#centerWindow#0;class#MainDisplay#0" />
-            <element signature="method#initMenuBar#0;class#MainDisplay#0" />
-            <element signature="e#4238#4411#0" expanded="true" />
-            <element signature="e#4410#4411#0" expanded="true" />
-            <element signature="method#initTable#0;class#MainDisplay#0" />
-            <element signature="method#redraw#0;class#MainDisplay#0" />
+            <element signature="e#9910#10110#0" expanded="true" />
+            <element signature="e#10109#10110#0" expanded="true" />
+            <element signature="e#11951#11952#0" expanded="true" />
+            <element signature="e#12014#12015#0" expanded="true" />
             <element signature="method#openFileDialog#0;class#MainDisplay#0" />
           </folding>
         </state>
@@ -600,11 +480,10 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#centerWindow#0;class#MainDisplay#0" />
-            <element signature="method#initMenuBar#0;class#MainDisplay#0" />
-            <element signature="e#4238#4411#0" expanded="true" />
-            <element signature="e#4410#4411#0" expanded="true" />
-            <element signature="method#initTable#0;class#MainDisplay#0" />
-            <element signature="method#redraw#0;class#MainDisplay#0" />
+            <element signature="e#9910#10110#0" expanded="true" />
+            <element signature="e#10109#10110#0" expanded="true" />
+            <element signature="e#11951#11952#0" expanded="true" />
+            <element signature="e#12014#12015#0" expanded="true" />
             <element signature="method#openFileDialog#0;class#MainDisplay#0" />
           </folding>
         </state>
@@ -655,11 +534,10 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#centerWindow#0;class#MainDisplay#0" />
-            <element signature="method#initMenuBar#0;class#MainDisplay#0" />
-            <element signature="e#4238#4411#0" expanded="true" />
-            <element signature="e#4410#4411#0" expanded="true" />
-            <element signature="method#initTable#0;class#MainDisplay#0" />
-            <element signature="method#redraw#0;class#MainDisplay#0" />
+            <element signature="e#9910#10110#0" expanded="true" />
+            <element signature="e#10109#10110#0" expanded="true" />
+            <element signature="e#11951#11952#0" expanded="true" />
+            <element signature="e#12014#12015#0" expanded="true" />
             <element signature="method#openFileDialog#0;class#MainDisplay#0" />
           </folding>
         </state>
@@ -680,24 +558,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/model/WriterXML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.xml/com/sun/org/apache/xerces/internal/parsers/XML11Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="884" selection-start-line="884" selection-end-line="884" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/model/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -708,10 +572,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/Main.java">
+    <entry file="file://$PROJECT_DIR$/test.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="230">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -722,101 +586,178 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/model/Data.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="122" column="14" lean-forward="true" selection-start-line="122" selection-start-column="14" selection-end-line="122" selection-end-column="14" />
+        <state relative-caret-position="289">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="method#addStudent#0;class#Data#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/MainDisplay.java">
+    <entry file="file://$PROJECT_DIR$/test50.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#centerWindow#0;class#MainDisplay#0" />
-            <element signature="method#initMenuBar#0;class#MainDisplay#0" />
-            <element signature="e#4238#4411#0" expanded="true" />
-            <element signature="e#4410#4411#0" expanded="true" />
-            <element signature="method#initTable#0;class#MainDisplay#0" />
-            <element signature="method#redraw#0;class#MainDisplay#0" />
-            <element signature="method#openFileDialog#0;class#MainDisplay#0" />
-          </folding>
+        <state relative-caret-position="434">
+          <caret line="31" column="14" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1502" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/swt.jar!/org/eclipse/swt/widgets/Control.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="1589" column="31" lean-forward="true" selection-start-line="1589" selection-start-column="31" selection-end-line="1589" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/PPVIS/model/SAXReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="131" column="1" lean-forward="true" selection-start-line="131" selection-start-column="1" selection-end-line="131" selection-end-column="1" />
+        <state relative-caret-position="1275">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#startElement#0;class#SAXReader#0" />
-            <element signature="method#characters#0;class#SAXReader#0" />
-            <element signature="method#endElement#0;class#SAXReader#0" />
-            <element signature="method#getStudents#0;class#SAXReader#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SecondLab.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/ParentFindDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1828">
+          <caret line="125" column="24" selection-start-line="125" selection-start-column="24" selection-end-line="125" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1199#1200#0" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+            <element signature="e#1426#1427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#genListStudent#0;class#Main#0" />
+            <element signature="method#genStudent#0;class#Main#0" />
+            <element signature="method#genGroup#0;class#Main#0" />
+            <element signature="method#genName#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/FindSurnameAverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/FindSurnameGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="41" column="51" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="41" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/model/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
+          <folding>
+            <element signature="method#Student#0;class#Student#0" />
+            <element signature="method#getAverageScore#0;class#Student#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/Conroller/strategy/FindStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/Conroller/strategy/FindAverageStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/Conroller/strategy/FindGroupStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="101" selection-start-line="8" selection-start-column="101" selection-end-line="8" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/Conroller/strategy/FindMarkStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/PPVIS/Conroller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="108" column="33" selection-start-line="108" selection-start-column="33" selection-end-line="108" selection-end-column="33" />
+        <state relative-caret-position="197">
+          <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#addStudent#0;class#Controller#0" />
-            <element signature="method#save#0;class#Controller#0" />
-            <element signature="method#open#0;class#Controller#0" />
-            <element signature="method#find#0;class#Controller#0" />
-            <element signature="method#find#1;class#Controller#0" />
-            <element signature="method#find#2;class#Controller#0" />
-            <element signature="method#deleteStudent#1;class#Controller#0" />
+            <element signature="e#3431#3432#0" expanded="true" />
+            <element signature="e#3485#3486#0" expanded="true" />
+            <element signature="method#getStudents#0;class#Controller#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/model/Data.java">
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/model/CompareObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        <state relative-caret-position="219">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="method#CompareObject#0;class#CompareObject#0" />
+            <element signature="method#CompareObject#1;class#CompareObject#0" />
+            <element signature="method#CompareObject#2;class#CompareObject#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/eclipse/widgets/FormComposite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="method#addStudent#0;class#Data#0" />
-            <element signature="method#isUniqFIO#0;class#Data#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/AddDisplay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="163" column="38" selection-start-line="163" selection-start-column="38" selection-end-line="163" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4012#5630#0" expanded="true" />
-            <element signature="e#5629#5630#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/DeleteSurnameAverage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
-          <folding>
-            <element signature="method#DeleteSurnameAverage#0;class#DeleteSurnameAverage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/DeleteSurnameGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
+        <state relative-caret-position="455">
+          <caret line="164" column="43" selection-start-line="164" selection-start-column="43" selection-end-line="164" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -825,43 +766,117 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/DeleteSurnameMark.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="100" column="32" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="309">
+          <caret line="98" column="31" selection-start-line="98" selection-start-column="31" selection-end-line="98" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/FindSurnameAverage.java">
+    <entry file="file://$PROJECT_DIR$/src/org/eclipse/widgets/TableComposite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="91" column="54" selection-start-line="91" selection-start-column="54" selection-end-line="91" selection-end-column="54" />
+        <state relative-caret-position="136">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#redraw#0;class#TableComposite#0" />
+            <element signature="method#redraw#1;class#TableComposite#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/swt.jar!/org/eclipse/swt/widgets/TypedListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/eclipse/widgets/FindCompositeMark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="78" column="74" selection-start-line="78" selection-start-column="74" selection-end-line="78" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/FindSurnameGroup.java">
+    <entry file="file://$PROJECT_DIR$/src/org/eclipse/widgets/FindCompositeGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/eclipse/widgets/FindCompositeAverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="70" column="67" lean-forward="true" selection-start-line="70" selection-start-column="67" selection-end-line="70" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/FindDisplay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
-          <caret line="136" column="11" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
+          <caret line="67" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="67" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5015#5292#0" expanded="true" />
-            <element signature="e#5291#5292#0" expanded="true" />
-            <element signature="method#redraw#0;class#FindSurnameGroup#0" />
+            <element signature="e#1843#2242#0" expanded="true" />
+            <element signature="e#2241#2242#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/FindSurnameMark.java">
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/DeleteSurnameAverage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="99" column="45" selection-start-line="99" selection-start-column="45" selection-end-line="99" selection-end-column="45" />
+        <state relative-caret-position="134">
+          <caret line="92" column="44" lean-forward="true" selection-start-line="92" selection-start-column="44" selection-end-line="92" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/DeleteSurnameGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="76" column="48" lean-forward="true" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/model/WriterXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/DeleteDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="62" column="25" selection-start-line="62" selection-start-column="25" selection-end-line="62" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1631#2332#0" expanded="true" />
+            <element signature="e#2331#2332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PPVIS/view/MainDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="314" column="145" selection-start-line="314" selection-start-column="145" selection-end-line="314" selection-end-column="145" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#centerWindow#0;class#MainDisplay#0" />
+            <element signature="e#7610#7988#0" expanded="true" />
+            <element signature="e#7987#7988#0" expanded="true" />
+            <element signature="e#13269#13631#0" expanded="true" />
+            <element signature="e#13630#13631#0" expanded="true" />
+            <element signature="method#openFileDialog#0;class#MainDisplay#0" />
           </folding>
         </state>
       </provider>

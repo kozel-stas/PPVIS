@@ -161,6 +161,7 @@ public class AddDisplay {
             public void widgetSelected(SelectionEvent selectionEvent) {
                 if (!"".equals(name.getText()) && !"".equals(surname.getText()) && !"".equals(patronymic.getText())) {
                     if (exams.size() == 5) {
+
                         if (controller.addStudent(name.getText(), surname.getText(), patronymic.getText(), groupNumber.getText(), exams)) {
                             messageBox.setMessage("Студент успешно добавлен");
                             messageBox.open();
