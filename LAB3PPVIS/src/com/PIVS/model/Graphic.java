@@ -6,19 +6,26 @@ import java.util.List;
 public class Graphic {
     private List<Point> graphic;
 
-    public Graphic (){
+    public Graphic() {
         graphic = new ArrayList<>();
     }
 
-    public void addPoint(Point point){
-        graphic.add(point);
+    public int addPoint(Point point) {
+        synchronized (graphic) {
+            graphic.add(point);
+            return graphic.size()-1;
+        }
     }
 
-    public void removeAll(){
-        graphic.clear();
+    public void removeAll() {
+        synchronized (graphic) {
+            graphic.clear();
+        }
     }
 
     public List<Point> getGraphic() {
-        return graphic;
+        synchronized (graphic) {
+            return new ArrayList<>(graphic);
+        }
     }
 }

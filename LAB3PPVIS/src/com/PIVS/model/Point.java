@@ -1,10 +1,12 @@
 package com.PIVS.model;
 
+import java.util.TimeZone;
+
 public class Point {
     private double time;
-    private double numberElement;
+    private int numberElement;
 
-    public Point(double time, double numberElement) {
+    public Point(int numberElement, double time) {
         this.time = time;
         this.numberElement = numberElement;
     }
@@ -13,7 +15,7 @@ public class Point {
         return time;
     }
 
-    public double getNumberElement() {
+    public int getNumberElement() {
         return numberElement;
     }
 }

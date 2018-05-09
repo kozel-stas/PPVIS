@@ -1,7 +1,6 @@
 package com.PIVS.model;
 
 import com.PIVS.controller.Controller;
-
 import java.util.List;
 
 public class SortList implements Runnable {
@@ -43,7 +42,7 @@ public class SortList implements Runnable {
     public void run() {
         while (isAlive && iteration != numberIteration + 1) {
             double allTime = 0;
-            for (int i = 0; i < numberTest; i++) {
+            for (int i = 0; i < numberTest && isAlive; i++) {
                 genList.genList(iteration);
                 List sortList = genList.getRandList();
                 double currentTime = System.nanoTime();
@@ -52,11 +51,13 @@ public class SortList implements Runnable {
             }
             allTime = allTime / numberTest;
             System.out.println(iteration + "      " + allTime / 1000);
+            controller.addPoint(new Point(iteration,allTime/1000));
             iteration++;
         }
     }
 
     private void sortList(List<Integer> sortList) {
+        if(!isAlive) return;
         for (int i = 0; i < sortList.size(); i++) {
             for (int j = sortList.size() - 1; j > i; j--) {
                 Integer compare1 = sortList.get(j-1);

@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53142f3f-43a5-4dca-a0b2-f7bc3d04514c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/swt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/swt_debug.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/PIVS/view/MainWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/eclipse/widgets/GraphicComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/PIVS/model/GenList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/PIVS/model/GenList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB3PPVIS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LAB3PPVIS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LAB3PPVIS/com/PIVS/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LAB3PPVIS/com/PIVS/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LAB3PPVIS/com/PIVS/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LAB3PPVIS/com/PIVS/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LAB3PPVIS/com/PIVS/model/Graphic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LAB3PPVIS/com/PIVS/model/Graphic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LAB3PPVIS/com/PIVS/model/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LAB3PPVIS/com/PIVS/model/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LAB3PPVIS/com/PIVS/model/SortList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LAB3PPVIS/com/PIVS/model/SortList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/PIVS/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/PIVS/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/PIVS/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/PIVS/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/PIVS/model/Graphic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/PIVS/model/Graphic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/PIVS/model/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/PIVS/model/Point.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/PIVS/model/SortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/PIVS/model/SortList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SecondLab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondLab/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SecondLab/out/production/SecondLab/com/PPVIS/Conroller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SecondLab/out/production/SecondLab/com/PPVIS/Conroller/Controller.class" afterDir="false" />
@@ -26,8 +38,13 @@
       <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/PIVS/controller/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="143">
+              <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,8 +52,8 @@
       <file leaf-file-name="GenList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/PIVS/model/GenList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            <state relative-caret-position="244">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,8 +64,12 @@
       <file leaf-file-name="Graphic.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/PIVS/model/Graphic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+              <folding>
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,17 +77,79 @@
       <file leaf-file-name="Point.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/PIVS/model/Point.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SortList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/PIVS/model/SortList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="65" column="45" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
+            <state relative-caret-position="151">
+              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#SortList#0;class#SortList#0" />
+                <element signature="method#SortList#1;class#SortList#0" />
+                <element signature="method#start#0;class#SortList#0" />
+                <element signature="method#start#1;class#SortList#0" />
+                <element signature="method#run#0;class#SortList#0" />
+                <element signature="method#sortList#0;class#SortList#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainWindow.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/PIVS/view/MainWindow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="158" column="40" selection-start-line="158" selection-start-column="40" selection-end-line="158" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1277#1278#0" expanded="true" />
+                <element signature="e#1327#1328#0" expanded="true" />
+                <element signature="method#initCanvas#0;class#MainWindow#0" />
+                <element signature="method#initLayout#0;class#MainWindow#0" />
+                <element signature="method#centerWindow#0;class#MainWindow#0" />
+                <element signature="method#initNavigateMenu#0;class#MainWindow#0" />
+                <element signature="method#initTable#0;class#MainWindow#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphicComponent.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/eclipse/widgets/GraphicComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="170" column="78" selection-start-line="170" selection-start-column="78" selection-end-line="170" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#GraphicComponent#0;class#GraphicComponent#0" />
+                <element signature="method#initListeners#0;class#GraphicComponent#0" />
+                <element signature="class#1237:1380" />
+                <element signature="class#1981:2467" />
+                <element signature="class#1660:2047" />
+                <element signature="class#3463:3803" />
+                <element signature="class#3843:4079" />
+                <element signature="method#addData#0;class#GraphicComponent#0" />
+                <element signature="method#removeAll#0;class#GraphicComponent#0" />
+                <element signature="method#initPaintListener#0;class#GraphicComponent#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/PIVS/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#220#221#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,7 +166,16 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>size()</find>
+      <find>int[]</find>
+      <find>t</find>
+      <find>origin</find>
+      <find>o</find>
+      <find>up</find>
     </findStrings>
+    <replaceStrings>
+      <replace>List</replace>
+      <replace>bias</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -91,12 +183,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/PIVS/model/Graphic.java" />
-        <option value="$PROJECT_DIR$/src/com/PIVS/model/Point.java" />
-        <option value="$PROJECT_DIR$/src/com/PIVS/controller/Controller.java" />
-        <option value="$PROJECT_DIR$/src/com/PIVS/Main.java" />
         <option value="$PROJECT_DIR$/src/com/PIVS/model/GenList.java" />
+        <option value="$PROJECT_DIR$/src/com/PIVS/Main.java" />
         <option value="$PROJECT_DIR$/src/com/PIVS/model/SortList.java" />
+        <option value="$PROJECT_DIR$/src/com/PIVS/model/Graphic.java" />
+        <option value="$PROJECT_DIR$/src/com/PIVS/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/com/PIVS/model/Point.java" />
+        <option value="$PROJECT_DIR$/src/com/PIVS/DemoDialog.java" />
+        <option value="$PROJECT_DIR$/src/com/PIVS/Draw2d.java" />
+        <option value="$PROJECT_DIR$/src/com/PIVS/ImageScrollFlickerFree.java" />
+        <option value="$PROJECT_DIR$/src/com/PIVS/view/MainWindow.java" />
+        <option value="$PROJECT_DIR$/src/org/eclipse/widgets/GraphicComponent.java" />
       </list>
     </option>
   </component>
@@ -106,7 +203,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="480" />
     <option name="y" value="-20" />
     <option name="width" value="980" />
@@ -151,6 +248,19 @@
               <item name="PIVS" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LAB3PPVIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB3PPVIS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="PIVS" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LAB3PPVIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB3PPVIS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="widgets" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -160,9 +270,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/swt.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -176,7 +292,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="ImageScrollFlickerFree (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.PIVS.ImageScrollFlickerFree" />
+      <module name="LAB3PPVIS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.PIVS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ImageScrollFlickerFree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ImageScrollFlickerFree" />
+      <module name="LAB3PPVIS" />
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.PIVS.Main" />
       <module name="LAB3PPVIS" />
@@ -199,9 +329,16 @@
       <envs />
       <method />
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ImageScrollFlickerFree" />
+      <item itemvalue="Application.ImageScrollFlickerFree (1)" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ImageScrollFlickerFree" />
+        <item itemvalue="Application.ImageScrollFlickerFree (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -217,12 +354,12 @@
       <updated>1525782549718</updated>
       <workItem from="1525782558752" duration="5224000" />
       <workItem from="1525852687314" duration="689000" />
-      <workItem from="1525853378683" duration="261000" />
+      <workItem from="1525853378683" duration="29160000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6174000" />
+    <option name="totallyTimeSpent" value="35073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -230,18 +367,20 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32941177" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32941177" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32941177" />
+      <window_info anchor="bottom" id="Thumbnails" weight="0.32941177" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1907552" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1907552" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -255,7 +394,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32941177" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +430,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="30" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -302,44 +440,220 @@
     <entry file="file://$PROJECT_DIR$/src/com/PIVS/model/Point.java" />
     <entry file="file://$PROJECT_DIR$/src/com/PIVS/model/Graphic.java" />
     <entry file="file://$PROJECT_DIR$/src/com/PIVS/model/SortList.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/PIVS/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/PIVS/controller/Controller.java">
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="60">
+          <caret line="803" selection-start-line="803" selection-end-line="803" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/swt.jar!/org/eclipse/swt/layout/GridLayout.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/swt.jar!/org/eclipse/swt/widgets/TypedListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/PIVS/model/GenList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        <state relative-caret-position="244">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/PIVS/model/Graphic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/PIVS/model/Point.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/PIVS/model/SortList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="65" column="45" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
+        <state relative-caret-position="151">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#SortList#0;class#SortList#0" />
+            <element signature="method#SortList#1;class#SortList#0" />
+            <element signature="method#start#0;class#SortList#0" />
+            <element signature="method#start#1;class#SortList#0" />
+            <element signature="method#run#0;class#SortList#0" />
+            <element signature="method#sortList#0;class#SortList#0" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/swt.jar!/org/eclipse/swt/widgets/Composite.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="335" column="15" selection-start-line="335" selection-start-column="15" selection-end-line="335" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PIVS/model/Graphic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PIVS/ImageScrollFlickerFree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-434">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PIVS/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#220#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PIVS/view/MainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="158" column="40" selection-start-line="158" selection-start-column="40" selection-end-line="158" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+            <element signature="method#initCanvas#0;class#MainWindow#0" />
+            <element signature="method#initLayout#0;class#MainWindow#0" />
+            <element signature="method#centerWindow#0;class#MainWindow#0" />
+            <element signature="method#initNavigateMenu#0;class#MainWindow#0" />
+            <element signature="method#initTable#0;class#MainWindow#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/PIVS/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/eclipse/widgets/GraphicComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="170" column="78" selection-start-line="170" selection-start-column="78" selection-end-line="170" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#GraphicComponent#0;class#GraphicComponent#0" />
+            <element signature="method#initListeners#0;class#GraphicComponent#0" />
+            <element signature="class#1237:1380" />
+            <element signature="class#1981:2467" />
+            <element signature="class#1660:2047" />
+            <element signature="class#3463:3803" />
+            <element signature="class#3843:4079" />
+            <element signature="method#addData#0;class#GraphicComponent#0" />
+            <element signature="method#removeAll#0;class#GraphicComponent#0" />
+            <element signature="method#initPaintListener#0;class#GraphicComponent#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>LAB3PPVIS</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
