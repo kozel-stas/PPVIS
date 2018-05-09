@@ -1,22 +1,24 @@
 package com.PIVS.model;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class GenList {
-    private int[] randList;
+    private List<Integer> randList;
 
     public GenList(){}
 
-    public int[] genList(int size){
-        randList = new int[size];
+    public List genList(int size){
+        randList = new ArrayList<>(size);
         Random random = new Random();
         for (int i=0;i<size;i++){
-            randList[i]=random.nextInt();
+            randList.add(random.nextInt());
         }
         return randList;
     }
 
-    public int[] getRandList() {
+    public List getRandList() {
         return randList;
     }
 }

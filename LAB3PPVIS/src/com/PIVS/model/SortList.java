@@ -45,7 +45,7 @@ public class SortList implements Runnable {
             double allTime = 0;
             for (int i = 0; i < numberTest; i++) {
                 genList.genList(iteration);
-                int[] sortList = genList.getRandList();
+                List sortList = genList.getRandList();
                 double currentTime = System.nanoTime();
                 sortList(sortList);
                 allTime += System.nanoTime() - currentTime;
@@ -56,13 +56,14 @@ public class SortList implements Runnable {
         }
     }
 
-    private void sortList(int[] sortList) {
-        for (int i = 0; i < sortList.length; i++) {
-            for (int j = sortList.length - 1; j > i; j--) {
-                if (sortList[j - 1] > sortList[j]) {
-                    int temp = sortList[j - 1];
-                    sortList[j - 1] = sortList[j];
-                    sortList[j] = temp;
+    private void sortList(List<Integer> sortList) {
+        for (int i = 0; i < sortList.size(); i++) {
+            for (int j = sortList.size() - 1; j > i; j--) {
+                Integer compare1 = sortList.get(j-1);
+                Integer compare2 = sortList.get(j);
+                if (compare1 > compare2) {
+                    sortList.set(j-1,compare2);
+                    sortList.set(j,compare1);
                 }
             }
         }
